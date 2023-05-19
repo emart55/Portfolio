@@ -1,50 +1,100 @@
+
 <!DOCTYPE html>
 <html>
 <head>
+  <title>EM | Portfolio</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-	<title>Emily Dev</title>
-  <link rel="stylesheet" type="text/css" href="css/css1.css">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/css1.css">
 </head>
-<body class="full-background">
-  <section id="hero">
-	<div class="button-container">
-     	<a href="#" class="btn-primary">Developer</button></a>
-      	<a href="#" class="btn-secondary">Designer</button></a>
-    	<a href="#" class="btn-secondary">Spicy Margarita Connoisseur</button></a>
-	</div>
-  </section>
+<body>
+  <!-- First Container: Logo & About -->
+  <header>
+    <div class="banner">
+        <div class="bubbles-container">
+            <div class="bubble bubble-1"></div>
+            <div class="bubble bubble-2"></div>
+            <div class="bubble bubble-3"></div>
+            <div class="bubble bubble-4"></div>
+            <div class="bubble bubble-5"></div>
+            <div class="bubble bubble-6"></div>
+            <div class="bubble bubble-7"></div>
+            <div class="bubble bubble-8"></div>
+            <div class="bubble bubble-9"></div>
+            <div class="bubble bubble-10"></div>
+            <div class="bubble bubble-11"></div>
+            <div class="bubble bubble-12"></div>
+          </div>
+          <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+      <h1>HI,</h1>
+      <p>I'm Emily | I build things for a living.</p>
+    </div>
+    <div class="button-container">
+        <div class="button-wrapper">
+          <a href="about.html" class="btn-primary">ABOUT ME</a>
+          <a href="projects.html" class="btn-secondary">PROJECTS</a>
+          <a href="#" class="btn-primary">Content</a>
+          <a href="#" class="btn-secondary">CONTACT</a>
+        </div>
+      </div>
+  </header>
+
+  <!-- Third Container: About Me -->
+  <div class="container">
+    <div class="box">
+      <h1>About Me</h1>
+      <img src="img/woman-icon-plain-in-circle.png" class="Emily" alt="Emily" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>Type content here.....</p>
+        <p>Type more content here.....</p>
+        <p>Type more content here.....</p>
+      </div>
+    </div>
+  </div>
   
-  <section>
-	<img src="img/FLORAL63.png" alt="Flower Background" class="background">
-	<div class="overlay-box">
-		<h2>EMILYMARTIN</h2><img src="img/Sunshine44.png" alt="Cocktail" class="cocktail">
-	</div>
-  </section>
-
-
-  <!-- 	<header>
-    <div class="mobile-header">
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header> -->
-
-
-	<main>
-		<h2>Main Heading</h2>
-		<p>Page content goes here.</p>
-	</main>
-
-	<footer>
-		<p>&copy; 2023 My Website</p>
-	</footer>
-
+  <!-- Fourth Container: Work & Resume -->
+  <div class="container-two">
+    <div class="box box-1">
+      <h2>MY WORK</h2>
+      <img src="img/read-book-icon.png" style="width:20%">
+      <img src="img/read-book-icon.png" style="width:20%">
+      <img src="img/read-book-icon.png" style="width:20%">
+    </div>
+  </div>
+  
+  <!-- Fifth Container: Swing By & Contact -->
+  <div class="container-two">
+    <div class="box box-2">
+      <h1>Swing By</h1>
+      <div class="w3-padding-64">
+        <p>..for a cup of coffee... or a wine.</p> 
+        <p>BNE, AUS</p>
+        <p>+61 426 259 097</p>
+        <p>emilymartin@outlook.com</p>
+        <p>emilymartin@outlook.com</p>
+      </div>
+    </div>
+    <div class="box box-3">
+		<h1>Contact</h1>
+		<section id="contact">
+		  <h2>Get in touch</h2>
+		  <form action="https://formspree.io/f/your-formspree-endpoint" method="POST">
+			<label for="yourname">Your Name</label>
+			<input type="text" id="yourname">
+			<label for="youremail">Your Email</label>
+			<input type="email" id="youremail" name="youremail" required>
+			<label for="yourmessage">Your Message</label>
+			<textarea name="message" id="yourmessage" rows="4"></textarea>
+			<input type="submit" name="submit" value="Send">
+		  </form>
+    </section>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© Emily Martin | She Codes 2023 Cohort</p>
+  </footer>
 </body>
 </html>

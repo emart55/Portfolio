@@ -1,83 +1,320 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1B1D1C;
+}
 
-/*
-.hero {
+.bubbles-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  position: absolute;
+}
+
+.bubble-1 {
+  background-color: #0B6D71;
+  top: 0;
+  left: 0;
+}
+
+.bubble-2 {
+  background-color: #4B8BE3;
+  top: 70px;
+  left: 30px;
+}
+
+.bubble-3 {
+  background-color: #1D8C73;
+  top: 40px;
+  left: 80px;
+}
+
+.bubble-4 {
+  background-color: #1D8C73;
+  top: 40px;
+  left: 20px;
+}
+
+.bubble-5 {
+  background-color: #1D8C73;
+  top: 90px;
+  left: 0px;
+}
+
+.bubble-6 {
+  background-color: #1D8C73;
+  top: -8px;
+  left: 100px;
+}
+
+.bubble-7 {
+  background-color: #20232A;
+  top: -10px;
+  left: 50px;
+}
+
+.bubble-8 {
+  background-color: #6B389F;
+  top: 40px;
+  left: -10px;
+}
+
+.bubble-9 {
+  background-color: #D3708E;
+  top: 140px;
+  left: -30px;
+}
+
+.bubble-10 {
+  background-color: #7EC8EA;
+  top: 170px;
+  left: -40px;
+}
+
+.bubble-11 {
+  background-color: #7EC8EA;
+  top: -10px;
+  left: -40px;
+}
+
+.bubble-12 {
+  background-color: #7EC8EA;
+  top: -24px;
+  left: 150px;
+}
+
+.Emily-text {
   display: flex;
   flex-direction: column;
-  text-decoration: line-through;
-  align-items: flex-end; 
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
   height: 100vh;
-}
-*/
-
-
-.h2 {
-  color: lightcoral;
-  font-style: oblique;
-  font-weight: bolder;
-  text-decoration: line-through;
-
+  margin-top: 100px;
 }
 
-.cocktail {
-  vertical-align: middle;
-  width: 20px;
-  animation: rotate 3s infinite linear;
-}
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .button-container {
-    margin-top: 20px;
-  }
-
-  
-
-.btn-primary, .btn-secondary {
-  padding: 12px 16px;
-  color: black;
+.banner {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  cursor: grab;
-  border-radius: 20px;
-  border: 2px solid #000;
-  background-color: floralwhite;
-  margin-top: 30px;
-}
-
-.overlay-box {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: lavenderblush;
+  align-items: center;
+  font-size: 20px;
+  height: 200px;
+  font-family: 'Kanit', sans-serif;
+  color: white;
   text-align: center;
-  padding: 20px;
-  position: absolute;
-  border-radius: 20px;
-  top: 48%;
-  left: 42%;
-  transform: translate(-100%, -160%);
+  padding: 10px;
+  background-color: #333;
 }
 
-.full-background {
-  background-color: bisque;
-}
-
-.background {
+.button-container {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  height: 100vh; 
-  background-image: url(img.FLORAL63.png);
-  background-size: cover;
-  position: relative;
-  padding: 0 50px;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  height: -20vh;
+  margin-bottom: -44px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-primary:hover {
+  padding: 16px 300px;
+  color: #000;
+  outline: 1px solid var(--black);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: teal;
+}
+
+.btn-secondary:hover {
+  padding: 16px 300px;
+  color: #000;
+  border-radius: 8px;
+  outline: 1px solid var(--black);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  transform: translate(-2px);
+  background-color: darkgrey; 
+}
+
+.button-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button-container a:hover {
+  background-color: lightblue;
+}
+
+.button-container a:active {
+  background-color: deepskyblue;
+}
+
+.button-wrapper a {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin-top: 10px;
+  margin-bottom: -46px;
+}
+
+.container-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -17px;
+  gap: -2px; /* Add this line */
+}
+
+
+.box {
+  flex-basis: calc(50% - 16px);
+  max-width: 600px;
+  margin: 8px;
+  padding: 20px;
+  background-color: #61BFAD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.box-1 {
+  flex-basis: 100%;
+  background-color: #167C80;
+}
+
+.box-2 {
+  flex-basis: 100%;
+}
+
+.box-3 {
+  flex-basis: 100%;
+  background-color: #167C80;
+}
+
+.footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  color: beige;
+}
+
+/* CSS styles for the About Me section */
+.about-section {
+  background-color: #f2f2f2;
+  padding: 60px;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* CSS styles for the "Get in touch" section */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&display=swap');
+
+#contact {
+  background-color: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#contact .container {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#contact .form-group {
+  margin-bottom: 20px;
+}
+
+#contact label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+  width: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: lightblue;
 }
 
 
 
+/* CSS styles for the centered section */
+.centered-section {
+  background-color: #c0e6e6;
+  padding: 60px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
+.centered-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
 
+.centered-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
