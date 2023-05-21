@@ -27,19 +27,26 @@
 ### Screenshots> Please include the following:
 The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).> - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.>> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####{{ Desktop hover nav.png }}
-####{{ Focus state in form.png }}
-####{{ Hover over external links.png }}
-####{{ Hover over submit button.png }}
-####{{ Mobile contact Page.png }}
-####{{ Mobile projects Page.png }}
-####{{ Successful form submission.png }}
+#### Desktop hover nav.png
+![Desktop hover navigation](./screenshots/Desktop%20hover%20nav.png)
 
-![ {{ Hover over nav }} ]( {{ Screenshots/Desktop hover nav.png }} )
-![ {{ Focus state in form }} ]( {{ Screenshots/Focus state in form.png }} )
-![ {{ Hover over buttons }} ]( {{ Screenshots/Hover over external links.png }} )
-![ {{ Another hover over nav }} ]( {{ Screenshots/Hover over nav.png }} )
-![ {{ Hover over submit button - contact form }} ]( {{ Screenshots/Hover over submit button.png }} )
-![ {{ Mobile contact page }} ]( {{ Screenshots/Mobile contact Page.png }} )
-![ {{ Mobile projects page }} ]( {{ Screenshots/Mobile projects Page.png }} )
-![ {{ Syccessful form submission }} ]( {{ Screenshots/Successful form submission.png }} )
+#### Focus state in form.png
+![Focus state in form page](./screenshots/Focus%20state%20in%20form.png)
+
+#### Hover over external links.png
+![Hover over buttons](./screenshots/Hover%20over%20external%20links.png)
+
+#### Hover over nav.png
+![Hover over navigation](./screenshots/Hover%20over%20nav.png)
+
+#### Hover over submit button.png
+![Hover over submit button](./screenshots/Hover%20over%20submit%20button.png)
+
+#### Mobile contact pagee.png
+![Mobile contacts page](./screenshots/Mobile%20contact%20Page.png)
+
+#### Mobile projects page.png
+![Mobile projects page](./screenshots/Mobile%20projects%20Page.png)
+
+#### Successful form submission.png
+![Successful form submission on contact page](./screenshots/Successful%20form%20submission.png)
